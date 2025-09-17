@@ -7,7 +7,7 @@ cursor.execute("CREATE TABLE IF NOT EXISTS student (id INTEGER PRIMARY KEY, name
 print("Table created.")
 
 # Practical Example 22
-cursor.execute("INSERT INTO student (name) VALUES ('Vishal')")
+cursor.execute("INSERT INTO student (name) VALUES ('Harsh')")
 conn.commit()
 cursor.execute("SELECT * FROM student")
 print(cursor.fetchall())
